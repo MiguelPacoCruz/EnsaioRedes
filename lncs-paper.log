@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.14)  14 SEP 2024 15:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.14)  18 SEP 2024 17:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -151,12 +151,6 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 112.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks20
-\inpenc@posthook=\toks21
- (/usr/share/texlive/texmf-dist/tex/latex/base/applemac.def
-File: applemac.def 2021/02/14 v1.3d Input encoding file
 )) (/usr/share/texlive/texmf-dist/tex/latex/ntgclass/a4.sty
 Package: a4 2020/02/18 v1.2g A4 based page layout
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
@@ -171,7 +165,7 @@ Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks20
 ) (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
@@ -222,7 +216,7 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2021/08/26 v2.01 AMS text
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
+\@emptytoks=\toks21
 \ex@=\dimen163
 )) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -250,21 +244,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \dotsspace@=\muskip16
 \c@parentequation=\count299
 \dspbrk@lvl=\count300
-\tag@help=\toks24
+\tag@help=\toks22
 \row@=\count301
 \column@=\count302
 \maxfields@=\count303
-\andhelp@=\toks25
+\andhelp@=\toks23
 \eqnshift@=\dimen166
 \alignsep@=\dimen167
 \tagshift@=\dimen168
 \tagwidth@=\dimen169
 \totwidth@=\dimen170
 \lineht@=\dimen171
-\@envbody=\toks26
+\@envbody=\toks24
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks27
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -295,29 +289,29 @@ LaTeX Font Info:    ... okay on input line 16.
 \scratchbox=\box101
 \nofMPsegments=\count306
 \nofMParguments=\count307
-\everyMPshowfont=\toks28
+\everyMPshowfont=\toks26
 \MPscratchCnt=\count308
 \MPscratchDim=\dimen173
 \MPnumerator=\count309
 \makeMPintoPDFobject=\count310
-\everyMPtoPDFconversion=\toks29
+\everyMPtoPDFconversion=\toks27
 ) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./lncs-paper.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./lncs-paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3682 strings out of 478287
- 57969 string characters out of 5849289
- 353286 words of memory out of 5000000
- 21833 multiletter control sequences out of 15000+600000
+ 3641 strings out of 478287
+ 56938 string characters out of 5849289
+ 354763 words of memory out of 5000000
+ 21798 multiletter control sequences out of 15000+600000
  491932 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,353b,209s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,62p,578b,260s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on lncs-paper.pdf (1 page, 32932 bytes).
+Output written on lncs-paper.pdf (2 pages, 38130 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 22 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

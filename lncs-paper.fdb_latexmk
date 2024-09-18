@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1726324505 "/home/miguel/Desktop/2ano/Redes/EnsaioRedes/lncs-paper.tex" "lncs-paper.pdf" "lncs-paper" 1726324505
+["pdflatex"] 1726677137 "/home/miguel/Desktop/2ano/Redes/EnsaioRedes/lncs-paper.tex" "lncs-paper.pdf" "lncs-paper" 1726677137
   "/etc/texmf/web2c/texmf.cnf" 1726314053 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/miguel/Desktop/2ano/Redes/EnsaioRedes/lncs-paper.tex" 1726324505 2628 1eb1295c8e58024b432ab11d4e54ffbb ""
+  "/home/miguel/Desktop/2ano/Redes/EnsaioRedes/lncs-paper.tex" 1726677136 3351 2b58136010aedc59dc43840dc1f8585a ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1136768653 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -32,10 +32,8 @@
   "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty" 1636758526 87648 07fbb6e9169e00cb2a2f40b31b2dbf3c ""
   "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty" 1636758526 4128 8eea906621b6639f7ba476a472036bbe ""
   "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty" 1636758526 2444 926f379cc60fcf0c6e3fee2223b4370d ""
-  "/usr/share/texlive/texmf-dist/tex/latex/base/applemac.def" 1622581934 6405 339fb390013f92d53720db148a3ba9fc ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1636758526 20144 8a7de377ae7a11ee924a7499611f5a9d ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty" 1622581934 4946 461cc78f6f26901410d9f1d725079cc6 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty" 1622581934 5049 969aec05d5f39c43f8005910498fcf90 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1636758526 8448 96f18c76bf608a36ee6fbf021ac1dd32 ""
   "/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty" 1579991033 4393 47f27fd4d95928d20b1885ba77de11d2 ""
@@ -58,8 +56,8 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1726317767 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1726317782 2800322 6cb2bc76dbe86f78cb41bdad83a732fe ""
   "llncs.cls" 1726320398 42406 58816aeb60fb84909ab8aed56b1cca5a ""
-  "lncs-paper.aux" 1726324505 1034 95c8967adf9a31e88c8e26b67126c1fe "pdflatex"
-  "lncs-paper.tex" 1726324505 2628 1eb1295c8e58024b432ab11d4e54ffbb ""
+  "lncs-paper.aux" 1726677137 1548 c90cfc81ba2b99251f376783d2d86036 "pdflatex"
+  "lncs-paper.tex" 1726677136 3351 2b58136010aedc59dc43840dc1f8585a ""
   (generated)
   "lncs-paper.aux"
   "lncs-paper.log"
