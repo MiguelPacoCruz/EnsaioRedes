@@ -1,0 +1,17 @@
+TY  - JOUR
+AU  - Singh, Sanjeev
+AU  - Jha, Rakesh Kumar
+PY  - 2017
+DA  - 2017/04/01
+TI  - A Survey on Software Defined Networking: Architecture for Next Generation Network
+JO  - Journal of Network and Systems Management
+SP  - 321
+EP  - 374
+VL  - 25
+IS  - 2
+AB  - The evolution of software defined networking (SDN) has played a significant role in the development of next-generation networks (NGN). SDN as a programmable network having “service provisioning on the fly” has induced a keen interest both in academic world and industry. In this article, a comprehensive survey is presented on SDN advancement over conventional network. The paper covers historical evolution in relation to SDN, functional architecture of the SDN and its related technologies, and OpenFlow standards/protocols, including the basic concept of interfacing of OpenFlow with network elements (NEs) such as optical switches. In addition a selective architecture survey has been conducted. Our proposed architecture on software defined heterogeneous network, points towards new technology enabling the opening of new vistas in the domain of network technology, which will facilitate in handling of huge internet traffic and helps infrastructure and service providers to customize their resources dynamically. Besides, current research projects and various activities as being carried out to standardize SDN as NGN by different standard development organizations (SODs) have been duly elaborated to judge how this technology moves towards standardization.
+SN  - 1573-7705
+UR  - https://doi.org/10.1007/s10922-016-9393-9
+DO  - 10.1007/s10922-016-9393-9
+ID  - Singh2017
+ER  - 

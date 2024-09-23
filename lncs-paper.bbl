@@ -1,0 +1,134 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{fundation2012software}{article}{}
+      \name{author}{1}{}{%
+        {{hash=65cc6202522638e895d4c9f8e88ecc7c}{%
+           family={Fundation},
+           familyi={F\bibinitperiod},
+           given={Open\bibnamedelima Networking},
+           giveni={O\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{65cc6202522638e895d4c9f8e88ecc7c}
+      \strng{fullhash}{65cc6202522638e895d4c9f8e88ecc7c}
+      \strng{bibnamehash}{65cc6202522638e895d4c9f8e88ecc7c}
+      \strng{authorbibnamehash}{65cc6202522638e895d4c9f8e88ecc7c}
+      \strng{authornamehash}{65cc6202522638e895d4c9f8e88ecc7c}
+      \strng{authorfullhash}{65cc6202522638e895d4c9f8e88ecc7c}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ONF white paper}
+      \field{number}{2-6}
+      \field{title}{Software-defined networking: The new norm for networks}
+      \field{volume}{2}
+      \field{year}{2012}
+      \field{pages}{11}
+      \range{pages}{1}
+    \endentry
+    \entry{paper3}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c68fe5c0ac09a6f264369ffed7772e70}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Sanjeev},
+           giveni={S\bibinitperiod}}}%
+        {{hash=631482fa008ab11e304e188d44525d7c}{%
+           family={Jha},
+           familyi={J\bibinitperiod},
+           given={Rakesh\bibnamedelima Kumar},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c06cccb80850f23faf9671c11bb2ed0}
+      \strng{fullhash}{5c06cccb80850f23faf9671c11bb2ed0}
+      \strng{bibnamehash}{5c06cccb80850f23faf9671c11bb2ed0}
+      \strng{authorbibnamehash}{5c06cccb80850f23faf9671c11bb2ed0}
+      \strng{authornamehash}{5c06cccb80850f23faf9671c11bb2ed0}
+      \strng{authorfullhash}{5c06cccb80850f23faf9671c11bb2ed0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{1}
+      \field{title}{A Survey on Software Defined Networking: Architecture for Next Generation Network}
+      \field{volume}{25}
+      \field{year}{2017}
+      \field{pages}{321\bibrangedash 374}
+      \range{pages}{54}
+      \verb{doi}
+      \verb 10.1007/s10922-016-9393-9
+      \endverb
+    \endentry
+    \entry{paper1}{article}{}
+      \name{author}{5}{}{%
+        {{hash=45cc675c1c2796a0aebf398f6cf382a0}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Wenfeng},
+           giveni={W\bibinitperiod}}}%
+        {{hash=39087d50c8e12fffe07830bb9607b00c}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Yonggang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9b203b69d2f2c626a82bf7875bdaa513}{%
+           family={Foh},
+           familyi={F\bibinitperiod},
+           given={Chuan\bibnamedelima Heng},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f678efa4adc87cf8d6e229b46a03b8dd}{%
+           family={Niyato},
+           familyi={N\bibinitperiod},
+           given={Dusit},
+           giveni={D\bibinitperiod}}}%
+        {{hash=937b609b54eca8dc8ad33c50cc651ea4}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Haiyong},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b341d4dc1f3daa3b0851447a8561eb3}
+      \strng{fullhash}{80db9715d8ff6c8f56e7c5b389bdbb52}
+      \strng{bibnamehash}{7b341d4dc1f3daa3b0851447a8561eb3}
+      \strng{authorbibnamehash}{7b341d4dc1f3daa3b0851447a8561eb3}
+      \strng{authornamehash}{7b341d4dc1f3daa3b0851447a8561eb3}
+      \strng{authorfullhash}{80db9715d8ff6c8f56e7c5b389bdbb52}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Communications Surveys & Tutorials}
+      \field{number}{1}
+      \field{title}{A Survey on Software-Defined Networking}
+      \field{volume}{17}
+      \field{year}{2015}
+      \field{pages}{27\bibrangedash 51}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1109/COMST.2014.2330903
+      \endverb
+      \keyw{Optical switches;Routing;Software;Computer architecture;Complexity theory;Software-defined networking;SDN;network virtualization;OpenFlow}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

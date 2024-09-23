@@ -11,6 +11,8 @@
 \usepackage{graphicx}
 \usepackage{fancyvrb}
 \usepackage{amsmath}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{references.bib}
 %\renewcommand{\baselinestretch}{1.5}
 
 \begin{document}
@@ -19,7 +21,7 @@
 
 \titlerunning{Pesquisa sobre SDN}
 
-\author{Miguel Cruz \and Dinis Peixoto \and Joao Tomas}
+\author{Miguel Cruz \and Dinis Peixoto \and João Tomás}
 
 \authorrunning{Miguel \and Dinis \and Tomas}
 
@@ -29,33 +31,46 @@ e-mail: \{a108574, a108566, a108656\}@alunos.uminho.pt
 }
 
 \date{}
-\bibliographystyle{splncs}
 
 \maketitle
 \begin{abstract}
-    Software Defined Networking (SDN) é uma nova abordagem de redes que visa simplificar a sua gestão e permitir a inovação através de redes dinâmicas e programáveis,  revolucionando a arquitetura estática das redes tradicionais, descentralizadas e complexas. 
+    \textit {Software Defined Networking} (SDN) é uma nova abordagem de redes que visa simplificar a sua gestão e permitir a inovação através de redes dinâmicas e programáveis,  revolucionando a arquitetura estática das redes tradicionais, descentralizadas e complexas. 
     O objetivo do SDN é melhorar o controlo da rede, permitindo que as empresas e os fornecedores de serviços respondam rapidamente às mudanças nos requisitos do negócio, possibilitando que um administrador molde o tráfego a partir de uma consola de controlo centralizada sem tocar em switches individuais. Conseguindo alterar as regras de qualquer switch de rede quando necessário – priorizando, despriorizando ou até mesmo bloqueando pacotes específicos com um nível de controlo muito granular.
-    Isto é especialmente útil numa arquitetura *multi-inquilino* de computação em nuvem porque permite ao administrador gerir as cargas de tráfego de forma flexível e mais eficiente.
+    Isto é especialmente útil numa arquitetura *multi-inquilino* de \textit {cloud computing}  porque permite ao administrador gerir as cargas de tráfego de forma flexível e mais eficiente.
 \end{abstract}
 
 \section{Introdução}
 
-%N�o esquecer de referenciar apropriadamente...
-%Macaco no nariz do vizinho amendoim no meu nariz. \cite{Zadeh65}
-O crescimento exponencial das TIC *(Tecnologia de Informação e Comunicação), particularmente, a computação em nuvem, a automação de redes e as redes de data centers, é catalisada pela integração de sistemas baseados no SDN. Com a globalização do digital e o aumento do volume de dispositivos conectados, as arquiteturas de redes tradicionais descentralizadas, que dependem de hardware especializado, revelaram-se ineficientes face à necessidade de flexibilidade e de escalabilidade. Neste medida, as redes tradicionais oferecem pouco flexibilidade na gestão do tráfego, bem como incapacidade na resposta às novas exigências computacionais, tais como a baixa latência ou a segmentação de rede. Em contraste, o SDN é uma abordagem inovadora que visa simplificar o tráfego através de redes dinâmicas e programáveis. Com a centralização via software, os administradores podem moldar as condições da rede conforme a necessidade, otimizando a utilização de recursos, bem como melhorando a qualidade de serviço (QoS).
-\newline
-Complementarmente, o SDN define-se pelas seguintes características. Primeiramente, a capacidade de desassociar o plano de dados do plano de controle.
- Em segundo lugar, o SDN possui um plano de controle indefinido, o que permite que seja controlado por um único software.
- Por conseguinte, o plano de controle do SDN    estende o seu controlo sobre o elementos plane control da rede, por meio do OpenFlow, programa de interface mais utilizado mundialmente. Paralelamente, a arquitetura do SDN providencia que um administrador visione a rede globalmente, mas também que faça alterações globalmente.
-Neste trabalho, procuramos apresentar a definição de SDN, bem como a sua arquitetura, aliada aos desenvolvimentos existente à data do SDN, bem como abordagens que visionem o desenvolvimento do SDN. O trabalho está organizado da seguinte forma. Na segunda secção, apresentaremos uma definição de SDN, a par dos seus benefícios. Nas três secções seguintes, apontaremos prospecções de futuros desenvolvimentos possíveis do SDN. Particularmente, na secção três indicaremos otimizações dos controladores SDN, já a secção quatro demonstra um sistema híbrido do SDN e as legacy networks, e a secção cinco exibe o desempenho do SDN em larga escala, bem como a sua prospecção face às otimizações mencionadas anteriormente. E, uma sucinta conclusão, que engloba o as implementações atuais do SDN, mas também uma antevisão das implementações futuras, e dos seus benefícios, na secção seis.
-
+\paragraph{} O crescimento exponencial das *\textit {information and communication technologies} (ICT), particularmente, \textit {cloud computing}, a automação de redes e as redes de \textit {data centers}, é catalisada pela integração de sistemas baseados no SDN. \cite{paper1}
+ Com a globalização do digital e o aumento do volume de dispositivos conectados, as arquiteturas de redes tradicionais descentralizadas, que dependem de \textit {hardware} especializado, revelaram-se ineficientes face à necessidade de flexibilidade e de escalabilidade. 
+ Neste medida, as redes tradicionais oferecem pouco flexibilidade na gestão do tráfego, bem como incapacidade na resposta às novas exigências computacionais, tais como a baixa latência ou a segmentação de rede. 
+ Em contraste, o SDN é uma abordagem inovadora que visa simplificar o tráfego através de redes dinâmicas e programáveis. 
+ Com a centralização via \textit {software}, os administradores podem moldar as condições da rede conforme a necessidade, otimizando a utilização de recursos, bem como melhorando a qualidade de serviço (QoS).
+ \paragraph{}
+Complementarmente, o SDN define-se pelas seguintes características. Primeiramente, a capacidade de desassociar o plano de dados do plano de controlo. \cite{paper3}
+ Em segundo lugar, o SDN possui um plano de controlo indefinido, o que permite que seja controlado por um único \textit {software}.
+ Por conseguinte, o plano de controlo do SDN estende o seu controlo sobre os elementos do plano de dados da rede, por meio do OpenFlow, programa de interface mais utilizado mundialmente.
+ Paralelamente, a arquitetura do SDN providencia que um administrador visione a rede globalmente, mas também que faça alterações globalmente.
+ \paragraph{}
+Neste trabalho, procuramos apresentar a definição de SDN, bem como a sua arquitetura, aliada aos desenvolvimentos existente à data do SDN, bem como abordagens que visionem o desenvolvimento do SDN.
+ O trabalho está organizado da seguinte forma. Na segunda secção, apresentaremos uma definição de SDN, a par dos seus benefícios.
+ Nas três secções seguintes, apontaremos prospecções de futuros desenvolvimentos possíveis do SDN. 
+ Particularmente, na secção três indicaremos otimizações dos controladores SDN, já a secção quatro demonstra um sistema híbrido do SDN e as \textit {legacy networks}, e a secção cinco exibe o desempenho do SDN em larga escala, bem como a sua prospecção face às otimizações mencionadas anteriormente. 
+ E, uma sucinta conclusão, que engloba o as implementações atuais do SDN, mas também uma antevisão das implementações futuras, e dos seus benefícios, na secção seis.
+ \paragraph{}
 \section{SDN: definição e benefícios}
-
+\paragraph{}
+Devido à sua emergência, o SDN ainda não dispõe uma definição consensual.
+Nesta secção, iremos primeiramente apresentar a mais definição mais creditada, e posteriormente, os benefícios do SDN.
 \subsection{Definição de SDN}
-abdc...
+\paragraph{}
+\textit{Software Defined Networking} (SDN) é uma arquitetura de redes emergente onde o controlo da rede é desassociado do plano de dados e é diretamente programável\cite{fundation2012software}
 \subsection{Benefícios do SDN}
+
 \section{Optimização de controladores SDN}
+
 \section{Integração de SDN com redes de legado}
+
 \section{Desempenho em implementações em larga escala}
 
 %UNCOMMENT se necess�rio
@@ -88,20 +103,6 @@ abdc...
 \section{Conclusões}
 Neste trabalho...
 
-%UNCOMMENT para a bibliografia 
-%% ficheirodebibliografia.bib
-%\bibliography{ficheirodebibliografia}
-
-%ou inserir directamente os v�rios \bibitem 
-\begin{thebibliography}{1}
-\bibitem{Zadeh65}
-Zadeh, L.:
-\newblock {Fuzzy sets} (1965)
-
-\bibitem{Nguyen99}
-Nguyen, H., Walker, E.:
-\newblock {First course in fuzzy logic}.
-\newblock {Boca Raton: Chapman and Hall/CRC Press} (1999)
-\end{thebibliography}
+\printbibliography
 
 \end{document}
