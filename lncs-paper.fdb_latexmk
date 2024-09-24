@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber lncs-paper"] 1727106530 "lncs-paper.bcf" "lncs-paper.bbl" "lncs-paper" 1727106531
-  "lncs-paper.bcf" 1727106525 107303 ccf08ca961b47c9cb3ba610f6332eefb "pdflatex"
+["biber lncs-paper"] 0 "lncs-paper.bcf" "lncs-paper.bbl" "lncs-paper" 0
+  "lncs-paper.bcf" 0 -1 0 "pdflatex"
   (generated)
   "lncs-paper.bbl"
   "lncs-paper.blg"
-["pdflatex"] 1727106531 "/home/miguel/Desktop/2ano/Redes/EnsaioRedes/lncs-paper.tex" "lncs-paper.pdf" "lncs-paper" 1727106531
+["pdflatex"] 1727174349 "/home/miguel/Desktop/2ano/Redes/EnsaioRedes/lncs-paper.tex" "lncs-paper.pdf" "lncs-paper" 1727174349
   "/etc/texmf/web2c/texmf.cnf" 1726314053 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/miguel/Desktop/2ano/Redes/EnsaioRedes/lncs-paper.tex" 1727106529 6067 a82199ca2d4b21f89bfe0259e434cbd4 ""
+  "/home/miguel/Desktop/2ano/Redes/EnsaioRedes/lncs-paper.tex" 1727174348 6606 4ea9c35aa5229c9014ebfcf5ffaceecc ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -81,11 +81,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1726317767 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1726317782 2800322 6cb2bc76dbe86f78cb41bdad83a732fe ""
+  "figura1.png" 1727174166 63543 8ebe797b10de0f604e32b437703a6d52 ""
   "llncs.cls" 1726320398 42406 58816aeb60fb84909ab8aed56b1cca5a ""
-  "lncs-paper.aux" 0 -1 0 "pdflatex"
-  "lncs-paper.bbl" 1727106530 5044 29a790044c125ebc46870fa7d18c3df8 "biber lncs-paper"
-  "lncs-paper.run.xml" 1727106530 2347 7b3fdf4a91f6e9f6f179a23050caccf2 "pdflatex"
-  "lncs-paper.tex" 1727106529 6067 a82199ca2d4b21f89bfe0259e434cbd4 ""
+  "lncs-paper.aux" 1727174349 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "lncs-paper.bbl" 1727174349 5044 29a790044c125ebc46870fa7d18c3df8 "biber lncs-paper"
+  "lncs-paper.run.xml" 0 -1 0 "pdflatex"
+  "lncs-paper.tex" 1727174348 6606 4ea9c35aa5229c9014ebfcf5ffaceecc ""
   (generated)
   "lncs-paper.aux"
   "lncs-paper.bcf"

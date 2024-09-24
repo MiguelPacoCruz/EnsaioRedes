@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.14)  23 SEP 2024 16:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.14)  24 SEP 2024 11:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -497,8 +497,7 @@ Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
 \@quotelevel=\count431
 \@quotereset=\count432
-
-No file lncs-paper.aux.
+ (./lncs-paper.aux)
 \openout1 = `lncs-paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -515,7 +514,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count433
 \scratchdimen=\dimen172
@@ -548,14 +547,39 @@ Package biblatex Info: Reference segment=0 on input line 18.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 106.
+
+/home/miguel/Desktop/2ano/Redes/EnsaioRedes/lncs-paper.tex:70: LaTeX Error: Unicode character ẽ (U+1EBD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...te, o ONF dispõe de um modelo de referẽ
+                                                  ncia do SDN, como ilustrad...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+LaTeX Warning: Reference `fig:controller' on page 2 undefined on input line 70.
+
+<figura1.png, id=9, 879.285pt x 574.145pt>
+File: figura1.png Graphic file (type png)
+<use figura1.png>
+Package pdftex.def Info: figura1.png  used on input line 73.
+(pdftex.def)             Requested size: 351.70778pt x 229.65393pt.
+
+Underfull \vbox (badness 1845) has occurred while \output is active []
+
+ [2 <./figura1.png>]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 117.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-/home/miguel/Desktop/2ano/Redes/EnsaioRedes/lncs-paper.tex:107: Misplaced alignment tab character &.
+/home/miguel/Desktop/2ano/Redes/EnsaioRedes/lncs-paper.tex:118: Misplaced alignment tab character &.
 <argument> IEEE Communications Surveys &
                                          Tutorials
-l.107 
+l.118 
       
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -564,9 +588,12 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[2] (./lncs-paper.aux)
+[3] (./lncs-paper.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -578,18 +605,18 @@ Package logreq Info: Writing requests to 'lncs-paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11186 strings out of 478287
- 206500 string characters out of 5849289
- 916430 words of memory out of 5000000
- 29279 multiletter control sequences out of 15000+600000
+ 11198 strings out of 478287
+ 206664 string characters out of 5849289
+ 916421 words of memory out of 5000000
+ 29287 multiletter control sequences out of 15000+600000
  501190 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,5n,68p,787b,1320s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,68p,787b,1320s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on lncs-paper.pdf (2 pages, 62929 bytes).
+Output written on lncs-paper.pdf (3 pages, 104153 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
