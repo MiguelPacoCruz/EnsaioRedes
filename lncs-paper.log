@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.14)  24 SEP 2024 11:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.9.14)  25 SEP 2024 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -572,14 +572,14 @@ Package pdftex.def Info: figura1.png  used on input line 73.
 Underfull \vbox (badness 1845) has occurred while \output is active []
 
  [2 <./figura1.png>]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 117.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 121.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-/home/miguel/Desktop/2ano/Redes/EnsaioRedes/lncs-paper.tex:118: Misplaced alignment tab character &.
+/home/miguel/Desktop/2ano/Redes/EnsaioRedes/lncs-paper.tex:122: Misplaced alignment tab character &.
 <argument> IEEE Communications Surveys &
                                          Tutorials
-l.118 
+l.122 
       
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -613,7 +613,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  60i,8n,68p,787b,1320s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on lncs-paper.pdf (3 pages, 104153 bytes).
+Output written on lncs-paper.pdf (3 pages, 104972 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
