@@ -75,6 +75,15 @@ Convergentemente, o ONF dispõe de um modelo de referẽncia do SDN, como ilustr
 \caption{\label{fig:architecture}Modelo de Referência do SDN, segundo a ONF.}
 \end{figure} 
 \paragraph{}
+A camada de infraestrutura consiste em dispositivos de comutação (por exemplo, \textit{switches}, \textit{routers}, etc.) no plano de dados.
+As funções destes dispositivos de comutação são basicamente duplas. 
+Primeiro, são responsáveis ​​por recolher o estado da rede, armazená-los temporariamente em dispositivos locais e enviá-los para os controladores. 
+O estado da rede pode incluir informações como a topologia da rede, estatísticas de tráfego e utilizações da rede. 
+Em segundo lugar, são responsáveis ​​pelo processamento de pacotes com base em regras fornecidas por um controlador.
+\paragraph{}
+A camada de controlo faz a ponte entre a camada de aplicação e a camada de infraestrutura, através das suas duas interfaces. Para a interação descendente com a camada de infraestrutura (ou seja, a interface virada a sul), especifica funções para os controladores acederem a funções fornecidas pelos dispositivos de comutação. As funções podem incluir relatórios do estado da rede e importação de regras de encaminhamento de pacotes. Para uma interação ascendente com a camada de aplicação (ou seja, a interface norte), fornece pontos de acesso de serviço em várias formas, por exemplo, uma \textit{Application Programming Interface} (API). As aplicações SDN podem aceder a informações de estado de rede reportadas a partir de dispositivos de comutação através desta API, tomar decisões de ajuste do sistema com base nessas informações e executar essas decisões configurando regras de encaminhamento de pacotes para dispositivos de comutação utilizando esta API. Como existirão múltiplos controladores para um grande domínio administrativo de rede, uma interface de comunicação “leste-oeste” entre controladores também exigirá que os controladores partilhem informações de rede e coordenem os seus processos de tomada de decisão.
+\paragraph{}
+A camada de aplicação contém aplicações SDN concebidas para satisfazer os requisitos do utilizador. Através da plataforma programável fornecida pela camada de controlo, as aplicações SDN são capazes de aceder e controlar dispositivos de comutação na camada de infraestrutura. Exemplos de aplicações SDN podem incluir o controlo de acesso dinâmico, a mobilidade e a migração contínuas, o balanceamento de carga do servidor e a virtualização de rede.
 
 \subsection{Benefícios do SDN}
 
