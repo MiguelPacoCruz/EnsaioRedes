@@ -91,7 +91,7 @@ A camada de aplicação contém aplicações SDN concebidas para satisfazer os r
 
 \section{Optimização de controladores SDN}
 
-\section{Integração de SDN com redes de legado}
+\section{Integração de SDN com \textit{legacy networks}}
 \paragraph{}
 Um problema do OpenFlow é a utilização de redes virtualizadas, que é uma ferramenta essencial para os ambientes de experimentação.
 À semelhança da virtualização, procura melhorar a alocação de recursos permitindo aos operadores criar pontos de verificação para a sua rede antes de fazer alterações, e garante que os clientes concorrentes possam partilhar os mesmos equipamentos de forma controlada e isolada. 
@@ -99,10 +99,10 @@ Permite ainda que um conjunto de \textit{switches} seja partilhado entre múltip
 \paragraph{}
 No entanto, hoje em dia tanto as instalações de experimentação de FI como as redes OpenFlow enfrentam um grande desafio: como podem integrar estes ambientes com ambientes de rede híbrida (i.e., OpenFlow e Legacy Network)? 
 Inicialmente é necessário conceptualizar Rede Legada, são redes com equipamentos utilizados por não-OpenFlow (e.g. a actual rede Internet) ou tecnologias que não são suportadas pelo OpenFlow (e.g. tecnologias de circuitos Camada 1 e Camada 0). 
-Alguns dos desafios das redes OpenFlow estão relacionados com a compatibilidade e os requisitos de integração com ambientes de rede de legado.
+Alguns dos desafios das redes OpenFlow estão relacionados com a compatibilidade e os requisitos de integração com ambientes de \textit{legacy networks}.
 \paragraph{}
 Outra questão, o OpenFlow não é capaz de manipular ou gerir equipamentos de legado pelo protocolo OpenFlow e, como resultado, é extremamente difícil alocar recursos em redes legadas para ligar dois ambientes OpenFlow. 
-Para além de outros problemas que surgem durante a implementação, existe um problema prático que envolve \textit{switches} de legado que não suportam o protocolo OpenFlow e precisam de ser substituídos ou atualizados.
+Para além de outros problemas que surgem durante a implementação, existe um problema prático que envolve \textit{ legacy switches} que não suportam o protocolo OpenFlow e precisam de ser substituídos ou atualizados.
 
 \section{Desempenho em implementações em larga escala}
 \paragraph{}
