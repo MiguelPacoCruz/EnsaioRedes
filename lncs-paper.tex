@@ -6,6 +6,12 @@
 % \usepackage[applemac]{inputenc}
 
 \usepackage{a4}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{libertine}
+%\usepackage{fontspec}
+
 %\usepackage[margin=3cm,nohead]{geometry}
 \usepackage{epstopdf}
 \usepackage{graphicx}
@@ -53,12 +59,12 @@ Complementarmente, o SDN define-se pelas seguintes características. Primeiramen
  Paralelamente, a arquitetura do SDN providencia que um administrador visione a rede globalmente, mas também que faça alterações globalmente.
  \paragraph{}
 Neste trabalho, procuramos apresentar a definição de SDN, bem como a sua arquitetura, aliada aos desenvolvimentos existente à data do SDN, bem como abordagens que visionem o desenvolvimento do SDN.
- O trabalho está organizado da seguinte forma. Na segunda secção, apresentaremos uma definição de SDN, a par dos seus benefícios.
- Nas três secções seguintes, apontaremos prospecções de futuros desenvolvimentos possíveis do SDN. 
- Particularmente, na secção três indicaremos otimizações dos controladores SDN, já a secção quatro demonstra um sistema híbrido do SDN e as \textit {legacy networks}, e a secção cinco exibe o desempenho do SDN em larga escala, bem como a sua prospecção face às otimizações mencionadas anteriormente. 
+ O trabalho está organizado da seguinte forma. Na segunda secção, apresentaremos uma definição de SDN, a par dos seus benefícios  e principais desafios.
+ Nas duas secções seguintes, apontaremos prospecções de futuros desenvolvimentos possíveis do SDN. 
+ Particularmente, na secção três indicaremos um sistema híbrido do SDN e as \textit {legacy networks}, e a secção quatro exibe o desempenho do SDN em larga escala, bem como a sua prospecção face às otimizações mencionadas anteriormente. 
  E, uma sucinta conclusão, que engloba o as implementações atuais do SDN, mas também uma antevisão das implementações futuras, e dos seus benefícios, na secção seis.
  \paragraph{}
-\section{SDN: definição e benefícios}
+\section{SDN: definição, benefícios e desafios}
 \paragraph{}
 Devido à sua emergência, o SDN ainda não dispõe uma definição consensual.
 Nesta secção, iremos primeiramente apresentar a mais definição mais creditada, e posteriormente, os benefícios do SDN.
@@ -88,8 +94,43 @@ A camada de controlo faz a ponte entre a camada de aplicação e a camada de inf
 A camada de aplicação contém aplicações SDN concebidas para satisfazer os requisitos do utilizador. Através da plataforma programável fornecida pela camada de controlo, as aplicações SDN são capazes de aceder e controlar dispositivos de comutação na camada de infraestrutura. Exemplos de aplicações SDN podem incluir o controlo de acesso dinâmico, o balanceamento de carga do servidor e a virtualização de rede.
 
 \subsection{Benefícios do SDN}
-
-\section{Optimização de controladores SDN}
+\paragraph{}
+O SDN tem por característica a capacidade de desassociar o plano de controlo do plano de dados. Esta característica poderá resultar em inúmeros benefícios a nível da 
+configuração, otimização, performance e inovação nos sistemas de redes. Como se averigua na \ref{fig:tabela}
+\paragraph{}
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.40]{tabela.png} 
+\end{center}
+\caption{\label{fig:tabela}Tabela Comparativa entre o SDN e redes tradionais.}
+\end{figure} 
+\paragraph{}
+Na gestão de redes a configuração representa um ponto fulcral, particularmente, quando um novo dispositivo é conectado a uma rede previamente existente, uma configuração
+devida é necessária para obter uma operação de redes estável. O modelo contemporâneo de redes ainda apresenta um grande desafio na configuração automática e dinâmica de redes.
+Em contra ponto, o SDN solucionará este problema, a unificação do plano de controlo sobre os dispositivos de redes, como textit{switches}, textit{routers} e a textit{firewall},
+permite configurar dispositivos de rede a partir de um único ponto, via software. Assim, uma rede pode ser configurada programaticamente e dinamicamente com base no textit{status} da rede. \cite{paper1}
+\paragraph{}
+Nas operações de redes um dos objetivos é maximizar a utilização da infrastutura da rede. Contudo, as abordagens atuais procuram a otimização de subconjunto de redes, ou,
+na qualidade de experiência dos usuários nos serviços de redes. Estas abordagens podem resultar num descrescimo do desempenho, ou até, em conflitos entre operações de redes. 
+O SDN permite um controlo centralizado com uma visão global e um controlo das informações entre as várias camadas da arquitetura da rede. Complementarmente, os desafios contemporâneos
+de otimização seriam resolvidos com algoritmos centralizados adequados.
+\paragraph{}
+A continua evolução de redes deverá encorajar a inovação das aplicações de redes, ao ínves de tentar prever com precisão aplicações futuras. Assim, alta configurabilidade do
+SDN permite uma separação entre redes virtuais, o que permite a realização de testes em ambientes reais. Deste modo, o SDN encoraja a inovação, na medida em que providencia 
+uma plataforma de redes programável para implementar, exprimentar, e lançar novas ideias, aliado a remuneramentos flexíveis e convinientes. \cite{paper1}
+\subsection{Desafios do SDN}
+\paragraph{}
+O SDN é o pico das arquiteturas de redes, pelo que é uma tecnologia emergente tão reverente. 
+Como o SDN é uma arquitetura centralizada no plano de controlo, a eficiência do controlador impacta diretamente a escalabilidade do SDN, 
+que se revela determinante para o sucesso do ecossitema SDN. Nesta medida, estes problemas fundamentais ainda não apresentam soluções definitivas.\cite{performance}
+\paragraph{}
+O projeto OpenFlow patricionado pela ONF, que a apresenta a definição mais creditada do SDN, não é de forma alguma o único modelo de SDN e uma solução concisa. 
+Complementarmente um textit{driver open-source} do OpenFlow ainda não está disponível para o desenvolvimento de controladores de SDN.Mas também, o desenvolvimento de aplicações de SDN está condicionado pela inexistência uma liguagem de alto nível. 
+Convergentemente, um ecossistema saudável que combine fornecedores, desenvolvedores e consumidores ainda está para surgir. \cite{paper1} 
+\paragraph{}
+Ainda que o SDN seja uma invoção em sistema de redes, a trasição de sistemas de redes tradionais para o SDN revelou-se um processo trabalhoso e disruptivo. Assim, problemas correntes incluem
+a inoperabilidade  do sistema SDN com dispositivos de textit{legacy networks}, o desempenho e privacidade do controlo centralizado, e a falta de suporte especializado, por meio de suporte técnico.
+Deste modo, as implementações de SDN são na sua maioria limitadas a ambientes de teste para fins de pesquisa. Os protótipos do SDN não se demonstram estáveis o suficiente para oferecerem confiança, para serem implementados em contextos reais, o que limita a disposição das empresas de adotá-lo em largas escalas.\cite{paper1}
 
 \section{Integração de SDN com \textit{legacy networks}}
 \paragraph{}
