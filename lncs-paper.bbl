@@ -128,6 +128,44 @@
       \endverb
       \keyw{Optical switches;Routing;Software;Computer architecture;Complexity theory;Software-defined networking;SDN;network virtualization;OpenFlow}
     \endentry
+    \entry{performance}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f296fe96a8466f2dae4c8e4a4967d767}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yimeng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ee8ffda16fb52338904ae17ee7a76d7c}{%
+           family={Iannone},
+           familyi={I\bibinitperiod},
+           given={Luigi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=88c5f400e81aac429469b2fba3a340dd}{%
+           family={Riguidel},
+           familyi={R\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{338d153de9b052cbbc09ac10d2514dc6}
+      \strng{fullhash}{338d153de9b052cbbc09ac10d2514dc6}
+      \strng{bibnamehash}{338d153de9b052cbbc09ac10d2514dc6}
+      \strng{authorbibnamehash}{338d153de9b052cbbc09ac10d2514dc6}
+      \strng{authornamehash}{338d153de9b052cbbc09ac10d2514dc6}
+      \strng{authorfullhash}{338d153de9b052cbbc09ac10d2514dc6}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 IEEE Conference on Network Function Virtualization and Software Defined Network (NFV-SDN)}
+      \field{title}{On the performance of SDN controllers: A reality check}
+      \field{year}{2015}
+      \field{pages}{79\bibrangedash 85}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/NFV-SDN.2015.7387410
+      \endverb
+      \keyw{Control systems;Benchmark testing;Performance evaluation;Software;Servers;Throughput;Software Defined Network;Controller;Benchmark;Measurement}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
