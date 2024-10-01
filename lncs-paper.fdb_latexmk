@@ -1,14 +1,14 @@
 # Fdb version 3
-["biber lncs-paper"] 1727785604 "lncs-paper.bcf" "lncs-paper.bbl" "lncs-paper" 1727786286
-  "lncs-paper.bcf" 1727786286 107604 12079d273c6c79b537edbb77a6265d49 "pdflatex"
+["biber lncs-paper"] 1727787413 "lncs-paper.bcf" "lncs-paper.bbl" "lncs-paper" 1727787441
+  "lncs-paper.bcf" 1727787441 107604 12079d273c6c79b537edbb77a6265d49 "pdflatex"
   "references.bib" 1727784906 2284 5270d0cf1dee1540515b363e4876abc2 ""
   (generated)
   "lncs-paper.bbl"
   "lncs-paper.blg"
-["pdflatex"] 1727786285 "/home/dinis/Desktop/EnsaioRedes/lncs-paper.tex" "lncs-paper.pdf" "lncs-paper" 1727786286
+["pdflatex"] 1727787440 "/home/dinis/Desktop/EnsaioRedes/lncs-paper.tex" "lncs-paper.pdf" "lncs-paper" 1727787441
   "/etc/texmf/web2c/texmf.cnf" 1727783827 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/dinis/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1727785335 1405653 727e81c1927dba8f6941d669f4e7c96c ""
-  "/home/dinis/Desktop/EnsaioRedes/lncs-paper.tex" 1727786285 15893 933ab4f6ae0b2cc170e0e5ea5dce6d0e ""
+  "/home/dinis/Desktop/EnsaioRedes/lncs-paper.tex" 1727787440 16299 126303293efa0825ff615b169552fb3d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1490131464 2933 9ad527ce78d7c5fa0a642dead095f172 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc" 1490131464 2934 a4a9158faed2e9e89c771b4e3b7fc12f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_dhi6qf.enc" 1558472472 2914 3d1e3c4123f03ab27df5767d5039d109 ""
@@ -124,10 +124,10 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1727785482 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "figura1.png" 1727784906 63543 8ebe797b10de0f604e32b437703a6d52 ""
   "llncs.cls" 1727784906 42406 58816aeb60fb84909ab8aed56b1cca5a ""
-  "lncs-paper.aux" 1727786286 4250 d04c9bfa257d13f594a5f45850f0be83 "pdflatex"
-  "lncs-paper.bbl" 1727785605 6720 08e21e60e2699d47a474378e6384a24e "biber lncs-paper"
-  "lncs-paper.run.xml" 1727786286 2347 7b3fdf4a91f6e9f6f179a23050caccf2 "pdflatex"
-  "lncs-paper.tex" 1727786285 15893 933ab4f6ae0b2cc170e0e5ea5dce6d0e ""
+  "lncs-paper.aux" 1727787441 4250 162d3b3c2844ebfa90386880c2fac605 "pdflatex"
+  "lncs-paper.bbl" 1727787414 6720 08e21e60e2699d47a474378e6384a24e "biber lncs-paper"
+  "lncs-paper.run.xml" 1727787441 2347 7b3fdf4a91f6e9f6f179a23050caccf2 "pdflatex"
+  "lncs-paper.tex" 1727787440 16299 126303293efa0825ff615b169552fb3d ""
   "tabela.png" 1727784906 50634 2c8a3871a9af7569620bcd50990477af ""
   (generated)
   "lncs-paper.aux"
