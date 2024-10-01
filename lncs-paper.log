@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.10.1)  1 OCT 2024 13:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.10.1)  1 OCT 2024 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -685,15 +685,15 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/it' will be
 (Font)              scaled to size 12.0pt on input line 135.
  [4]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 164.
-LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineMonoT-TLF on input line 164.
+(Font)              scaled to size 10.0pt on input line 165.
+LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineMonoT-TLF on input line 165.
  (/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxLibertineMonoT-TLF.fd
 File: T1LinuxLibertineMonoT-TLF.fd 2019/05/20 (autoinst) Font definitions for T1/LinuxLibertineMonoT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' in size <10> not available
-(Font)              Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' tried instead on input line 164.
+(Font)              Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' tried instead on input line 165.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 164.
+(Font)              scaled to size 10.0pt on input line 165.
  [5] [6] (./lncs-paper.aux)
 Package logreq Info: Writing requests to 'lncs-paper.run.xml'.
 \openout1 = `lncs-paper.run.xml'.
@@ -702,13 +702,13 @@ Package logreq Info: Writing requests to 'lncs-paper.run.xml'.
 Here is how much of TeX's memory you used:
  12585 strings out of 480247
  238708 string characters out of 5896151
- 931056 words of memory out of 5000000
+ 930056 words of memory out of 5000000
  30349 multiletter control sequences out of 15000+600000
  547263 words of font info for 64 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,8n,68p,1357b,1320s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_dhi6qf.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_ki75ao.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineMT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTBI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on lncs-paper.pdf (6 pages, 402466 bytes).
+Output written on lncs-paper.pdf (6 pages, 402318 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
